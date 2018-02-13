@@ -6,11 +6,17 @@ h1, h3 {
 	text-align: center;
 }
 
-/*body {
-	background-color: #EFEFEF;
+body { padding-top: 50px; }
 
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
 }
 
-hr {
-	color: #C09F80;
-}*/
+/*#give-border {
+	border: 1px solid #777;
+}
+*/
