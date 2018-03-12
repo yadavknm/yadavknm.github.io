@@ -6,10 +6,11 @@ h1, h3 {
 	text-align: center;
 }
 
-body { 
+/*body { 
 	padding-top: 50px; 
-}
+}*/
 
+/*To avoid the overlap of content due to navbar*/
 *[id]:before { 
   display: block; 
   content: " "; 
